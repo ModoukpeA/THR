@@ -1,0 +1,426 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="./candidat.css">
+    <title>My Test</title>
+  </head>
+  
+  <body>
+    <!-- Barre de Menu -->
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #e3f2fd;">
+      <a class="navbar-brand" href="#">THR</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+          
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Accueil <span class="sr-only">(current)</span></a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="../candidat/candidat.html">Candidats</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="../recruteur/recruteur.html">Recruteurs</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="../tarif/tarif.html">Tarifs</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="./contact/contact.html">Contact</a>
+          </li>
+
+          <li class="nav-item">
+           <a class="nav-link" href="../connexion/connexion.html">Connexion</a>
+          </li>
+        </ul>
+
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Tapez la recherche" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Valider</button>
+        </form>
+      </div>
+    </nav>
+    <div class="jumbotron jumbotron-fluid">
+
+    </div>
+    <div class="container mt-3">
+      <h2>ESPACE CANDIDATS</h2> <br>
+      <!-- Nav tabs -->
+      <ul class="nav nav-tabs">
+        <li class="nav-item">
+          <a class="nav-link active" data-toggle="tab" href="#home">Créer votre CV</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" data-toggle="tab" href="#menu1"> Ajouter du contenu multimédia</a>
+        </li>
+      </ul>
+          
+      <!-- Tab panes -->
+      <div class="tab-content">
+        <div id="home" class="container tab-pane active"><br>
+          <h4>Suivez toutes les étapes afin de renseigner toutes les informations vous concernant.</h4> <br>
+          <p>
+            <a class="btn btn-outline-primary" data-toggle="collapse" href="#infoPerso" role="button" aria-expanded="false" aria-controls="collapseExample">
+             Informations Personnelles
+            </a>
+
+            <button class="btn btn-outline-success" type="button" data-toggle="collapse" data-target="#parcours" aria-expanded="false" aria-controls="collapseExample">
+              Parcours Académique/Universitaire
+            </button>
+
+            <button class="btn btn-outline-danger" type="button" data-toggle="collapse" data-target="#expPro" aria-expanded="false" aria-controls="collapseExample">
+              Expérience Professionnelle
+            </button>
+          </p> <br>
+
+          <div class="collapse" id="infoPerso">
+            <div class="card card-body">
+              <form>
+                <div class="row">
+                  <div class="col">
+                    <input type="text" class="form-control" placeholder="Nom">
+                  </div>
+                  <div class="col">
+                    <input type="text" class="form-control" placeholder="Prénoms">
+                  </div>
+                </div> <br>
+                <div class="row">
+                  <div class="col">
+                    <input type="date" class="form-control" placeholder="Date et Lieu de Naissance">
+                  </div>
+                  <div class="col">
+                    <input type="text" class="form-control" placeholder="Adresse">
+                  </div>
+                </div> <br>
+                <div class="row">
+                  <div class="col">
+                    <input type="text" class="form-control" placeholder="Numéro de Téléphone">
+                  </div>
+                  <div class="col">
+                    <input type="text" class="form-control" placeholder="Adresse Electronique">
+                  </div>
+                </div> <br>
+                <button class="btn btn-info"> Sauvegarder</button>
+              </form>
+            </div>
+          </div>
+
+          <div class="collapse" id="parcours">
+            <div class="card card-body">
+              <form>
+                <div class="row">
+                  <div class="col">
+                    <input type="text" class="form-control" placeholder="Ecole/Université">
+                  </div>
+                  <div class="col">
+                    <input type="text" class="form-control" placeholder="Année">
+                  </div>
+                  <div class="col">
+                    <input type="text" class="form-control" placeholder="Diplôme Obtenu">
+                  </div>
+                </div> <br>
+
+                <div class="row">
+                  <div class="col">
+                    <input type="text" class="form-control" placeholder="Ecole/Université">
+                  </div>
+                  <div class="col">
+                    <input type="text" class="form-control" placeholder="Année">
+                  </div>
+                  <div class="col">
+                    <input type="text" class="form-control" placeholder="Diplôme Obtenu">
+                  </div>
+                </div> <br>
+
+                <div class="row">
+                  <div class="col">
+                    <input type="text" class="form-control" placeholder="Ecole/Université">
+                  </div>
+                  <div class="col">
+                    <input type="text" class="form-control" placeholder="Année">
+                  </div>
+                  <div class="col">
+                    <input type="text" class="form-control" placeholder="Diplôme Obtenu">
+                  </div>
+                </div> <br>
+
+                <div class="row">
+                  <div class="col">
+                    <input type="text" class="form-control" placeholder="Ecole/Université">
+                  </div>
+                  <div class="col">
+                    <input type="text" class="form-control" placeholder="Année">
+                  </div>
+                  <div class="col">
+                    <input type="text" class="form-control" placeholder="Diplôme Obtenu">
+                  </div>
+                </div> <br>
+
+                <div class="row">
+                  <div class="col">
+                    <input type="text" class="form-control" placeholder="Ecole/Université">
+                  </div>
+                  <div class="col">
+                    <input type="text" class="form-control" placeholder="Année">
+                  </div>
+                  <div class="col">
+                    <input type="text" class="form-control" placeholder="Diplôme Obtenu">
+                  </div>
+                </div> <br>
+
+                <div class="row">
+                  <div class="col">
+                    <input type="text" class="form-control" placeholder="Ecole/Université">
+                  </div>
+                  <div class="col">
+                    <input type="text" class="form-control" placeholder="Année">
+                  </div>
+                  <div class="col">
+                    <input type="text" class="form-control" placeholder="Diplôme Obtenu">
+                  </div>
+                </div> <br>
+
+                <div class="row">
+                  <div class="col">
+                    <input type="text" class="form-control" placeholder="Ecole/Université">
+                  </div>
+                  <div class="col">
+                    <input type="text" class="form-control" placeholder="Année">
+                  </div>
+                  <div class="col">
+                    <input type="text" class="form-control" placeholder="Diplôme Obtenu">
+                  </div>
+                </div> <br>
+                <button class="btn btn-info"> Sauvegarder</button>
+              </form>
+            </div>
+          </div>
+          <div class="collapse" id="expPro">
+            <div class="card card-body">
+              <form>
+                <div class="row">
+                  <div class="col">
+                    <input type="date" class="form-control" placeholder="Du">
+                  </div>
+                  <div class="col">
+                    <input type="date" class="form-control" placeholder="Au">
+                  </div>
+                  <div class="col">
+                    <input type="text" class="form-control" placeholder="Poste Occupé">
+                  </div>
+                  <div class="col">
+                    <input type="text" class="form-control" placeholder="Entreprise">
+                  </div>
+                </div> <br>
+                <div class="row">
+                  <div class="col">
+                    <input type="date" class="form-control" placeholder="Du">
+                  </div>
+                  <div class="col">
+                    <input type="date" class="form-control" placeholder="Au">
+                  </div>
+                  <div class="col">
+                    <input type="text" class="form-control" placeholder="Poste Occupé">
+                  </div>
+                  <div class="col">
+                    <input type="text" class="form-control" placeholder="Entreprise">
+                  </div>
+                </div> <br>
+                <div class="row">
+                  <div class="col">
+                    <input type="date" class="form-control" placeholder="Du">
+                  </div>
+                  <div class="col">
+                    <input type="date" class="form-control" placeholder="Au">
+                  </div>
+                  <div class="col">
+                    <input type="text" class="form-control" placeholder="Poste Occupé">
+                  </div>
+                  <div class="col">
+                    <input type="text" class="form-control" placeholder="Entreprise">
+                  </div>
+                </div> <br>
+                <button class="btn btn-info"> Sauvegarder</button>
+              </form>
+            </div>
+          </div>
+          <p>
+            <a class="btn btn-outline-primary" data-toggle="collapse" href="#competences" role="button" aria-expanded="false" aria-controls="collapseExample">
+              Compétences
+            </a>
+            <button class="btn btn-outline-success" type="button" data-toggle="collapse" data-target="#langues" aria-expanded="false" aria-controls="collapseExample">
+              Langues
+            </button>
+            <button class="btn btn-outline-danger" type="button" data-toggle="collapse" data-target="#interets" aria-expanded="false" aria-controls="collapseExample">
+              Centres d'intérêts
+            </button>
+            <button class="btn btn-outline-info" type="button" data-toggle="collapse" data-target="#photo" aria-expanded="false" aria-controls="collapseExample">
+              Ajouter une photo
+            </button>
+          </p>
+          <div class="collapse" id="competences">
+            <div class="card card-body">
+              <form action="">
+                <div class="row">
+                  <div class="col">
+                    <input type="text" class="form-control" placeholder="Compétence1">
+                  </div>
+                  <div class="col">
+                    <input type="text" class="form-control" placeholder="Compétence2">
+                  </div>
+                  <div class="col">
+                    <input type="text" class="form-control" placeholder="Compétence3">
+                  </div>
+                  <div class="col">
+                    <input type="text" class="form-control" placeholder="Compétence4">
+                  </div>
+                </div> <br>
+                <div class="row">
+                  <div class="col">
+                    <input type="text" class="form-control" placeholder="Compétence1">
+                  </div>
+                  <div class="col">
+                    <input type="text" class="form-control" placeholder="Compétence2">
+                  </div>
+                  <div class="col">
+                    <input type="text" class="form-control" placeholder="Compétence3">
+                  </div>
+                  <div class="col">
+                    <input type="text" class="form-control" placeholder="Compétence4">
+                  </div>
+                </div> <br>
+                <button class="btn btn-info">Sauvegarder</button>
+              </form>
+              
+            </div>
+          </div>
+          <div class="collapse" id="langues">
+            <div class="card card-body">
+              <form action="">
+                <div class="row">
+                  <div class="col">
+                    <input type="text" class="form-control" placeholder="Langue1">
+                  </div>
+                  <div class="col">
+                    <input type="text" class="form-control" placeholder="Langue2">
+                  </div>
+                  <div class="col">
+                    <input type="text" class="form-control" placeholder="Langue3">
+                  </div>
+                  <div class="col">
+                    <input type="text" class="form-control" placeholder="Langue4">
+                  </div>
+                  <div class="col">
+                    <input type="text" class="form-control" placeholder="Langue5">
+                  </div>
+                </div> <br>
+                <button class="btn btn-info">Sauvegarder</button>
+              </form>
+              
+            </div>
+          </div>
+          <div class="collapse" id="interets">
+            <div class="card card-body">
+              <form action="">
+                <div class="row"> 
+                  <div class="col">
+                    <input type="text" class="form-control" placeholder="Intérêt1">
+                  </div>
+                  <div class="col">
+                    <input type="text" class="form-control" placeholder="Intérêt2">
+                  </div>
+                </div> <br>
+                <div class="row"> 
+                  <div class="col">
+                    <input type="text" class="form-control" placeholder="Intérêt3">
+                  </div>
+                  <div class="col">
+                    <input type="text" class="form-control" placeholder="Intérêt4">
+                  </div>
+                </div> <br>
+                <button class="btn btn-info"> Sauvegarder</button>
+              </form>
+            </div>
+          </div>
+          <div class="collapse" id="photo">
+            <div class="card card-body">
+              <div class="photo">
+                <div class="avatar btn btn-outline-info"> </div>
+                <div>
+                  <input type="file" name="" id="">
+                  <button class="btn btn-warning"> Enregistrer</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="menu1" class="container tab-pane fade"><br>
+          <h4>Vous avez la possibilité d'ajouter du contenu multimédia à votre profil.</h4> <br>
+          <p>
+            <!-- Button trigger modal -->
+          <button type="button" class="btn btn-outline-primary" data-toggle="modal" data-target="#exampleModal">
+            Ajouter une vidéo de présentation
+          </button>
+          <button type="button" class="btn btn-outline-secondary" data-toggle="modal" data-target="#exampleModal">
+            Ajouter des photos professionnelles
+          </button>
+          <!-- Modal -->
+          <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Information</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  Cette option est payante !!
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-info" data-dismiss="modal">OK</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </p>
+      </div>
+    </div>
+  </div>
+    <footer>
+      <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #e3f2fd; height: 40px;">
+        <ul class="navbar-nav mr-auto text-center">
+          <li class="nav-item">
+           <a class="nav-link" href="#">Termes et conditions d'utilisation</a>
+          </li>
+          <li class="nav-item">
+           <a class="nav-link" href="#">THR</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">@Copyright2020</a>
+          </li>
+        </ul>
+      </nav>
+    </footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        
+  </body>
+    
+</html>

@@ -1,0 +1,14 @@
+.avatar {
+    vertical-align: middle;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.photo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer {
+    margin-top: 122px;
+}

@@ -1,0 +1,17 @@
+.tarif {
+    display: flex;
+    justify-content: space-between;
+}
+.tarif img {
+    width: 50%;
+}
+img {
+    width: 100%;
+    height: 565px;
+}
+.div-accordion {
+    display: flex;
+    align-items: center;
+    width: 500px;
+    margin-right: 90px;
+}
